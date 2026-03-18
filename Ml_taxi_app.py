@@ -40,26 +40,22 @@ st.write(f"R2 Score: {r2:.2f}")
 st. write(f"RMSE: {rmse:.2f}")
 
 st.subheader("Enter trip details")
-
 distance = st.number_input(
   "Step 1: Enter Distance(km)",
   min_value=0.0,
   value=5.0
 )
-
 passengers = st.number_input(
   "Step 2: Number of passengers",
   min_value=1,
   value=1
 )
-
 hour = st.number_input(
 "Step 3: Hour of Day (0-23)",
 min_value=0,
 max_value=23,
 value=12
 )
-
 if st.button(" Predict Fare "):
   input_data = np.array([[distance]])
   prediction = model.predict(input_data)
