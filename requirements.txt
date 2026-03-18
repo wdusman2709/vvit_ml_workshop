@@ -4,6 +4,6 @@ scikit-learn
 steamlit
 matplotlib
 seaborn
-altair<5
+altair < 5
 standard-imghdr
 pyarrow
