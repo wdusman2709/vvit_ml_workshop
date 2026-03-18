@@ -10,7 +10,7 @@ st.title("VVIT taxi Fare prediction App(End-to-End ML)")
 @st.cache_data
 def load_data():
   url="taxis.csv"
-  df = pd.read csv(url)
+  df = pd.read_csv(url)
   df = df.convert_dtypes()
   st.write(df.head())
   return df
