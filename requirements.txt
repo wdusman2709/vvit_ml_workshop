@@ -1,9 +1,9 @@
 pandas
 numpy
 scikit-learn
-steamlit
+streamlit
 matplotlib
 seaborn
-altair < 5
+altair<5
 standard-imghdr
 pyarrow
